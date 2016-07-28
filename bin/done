@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative '../lib/done_did'
+
+DoneDid.new.done(ARGV[0])
