@@ -27,7 +27,6 @@ class DoneDid
     File.open(@file, 'a') do |file|
       file.puts "#{date} #{message}"
     end
-    puts "✔ Done"
   end
 
   def did
